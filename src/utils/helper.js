@@ -1,38 +1,41 @@
 var nameList = [
-    'Time', 'Past', 'Future', 'Dev',
-    'Fly', 'Flying', 'Soar', 'Soaring', 'Power', 'Falling',
-    'Fall', 'Jump', 'Cliff', 'Mountain', 'Rend', 'Red', 'Blue',
-    'Green', 'Yellow', 'Gold', 'Demon', 'Demonic', 'Panda', 'Cat',
-    'Kitty', 'Kitten', 'Zero', 'Memory', 'Trooper', 'XX', 'Bandit',
-    'Fear', 'Light', 'Glow', 'Tread', 'Deep', 'Deeper', 'Deepest',
-    'Mine', 'Your', 'Worst', 'Enemy', 'Hostile', 'Force', 'Video',
-    'Game', 'Donkey', 'Mule', 'Colt', 'Cult', 'Cultist', 'Magnum',
-    'Gun', 'Assault', 'Recon', 'Trap', 'Trapper', 'Redeem', 'Code',
-    'Script', 'Writer', 'Near', 'Close', 'Open', 'Cube', 'Circle',
-    'Geo', 'Genome', 'Germ', 'Spaz', 'Shot', 'Echo', 'Beta', 'Alpha',
-    'Gamma', 'Omega', 'Seal', 'Squid', 'Money', 'Cash', 'Lord', 'King',
-    'Duke', 'Rest', 'Fire', 'Flame', 'Morrow', 'Break', 'Breaker', 'Numb',
-    'Ice', 'Cold', 'Rotten', 'Sick', 'Sickly', 'Janitor', 'Camel', 'Rooster',
-    'Sand', 'Desert', 'Dessert', 'Hurdle', 'Racer', 'Eraser', 'Erase', 'Big',
-    'Small', 'Short', 'Tall', 'Sith', 'Bounty', 'Hunter', 'Cracked', 'Broken',
-    'Sad', 'Happy', 'Joy', 'Joyful', 'Crimson', 'Destiny', 'Deceit', 'Lies',
-    'Lie', 'Honest', 'Destined', 'Bloxxer', 'Hawk', 'Eagle', 'Hawker', 'Walker',
-    'Zombie', 'Sarge', 'Capt', 'Captain', 'Punch', 'One', 'Two', 'Uno', 'Slice',
-    'Slash', 'Melt', 'Melted', 'Melting', 'Fell', 'Wolf', 'Hound',
-    'Legacy', 'Sharp', 'Dead', 'Mew', 'Chuckle', 'Bubba', 'Bubble', 'Sandwich', 'Smasher', 'Extreme', 'Multi', 'Universe', 'Ultimate', 'Death', 'Ready', 'Monkey', 'Elevator', 'Wrench', 'Grease', 'Head', 'Theme', 'Grand', 'Cool', 'Kid', 'Boy', 'Girl', 'Vortex', 'Paradox'
-  ];
+  'Aarav', 'Aanya', 'Aaditi', 'Aadi', 'Aahan', 'Aahana', 'Aakarsh', 'Aaliyah', 'Aarush', 'Aashka',
+  'Abhinav', 'Advaita', 'Akshay', 'Akansha', 'Arya', 'Arjun', 'Amrita', 'Anaya', 'Amit', 'Alisha',
+  'Bhavya', 'Bhuvan', 'Chaitanya', 'Charu', 'Dhruv', 'Diya', 'Daksh', 'Ekta', 'Esha', 'Faisal',
+  'Gautam', 'Geetika', 'Hritik', 'Harshita', 'Ishaan', 'Ishika', 'Jai', 'Jasmine', 'Kabir', 'Kavita',
+  'Lakshay', 'Leela', 'Manan', 'Mira', 'Naman', 'Nandini', 'Ojas', 'Oviya', 'Parth', 'Payal',
+  'Qamar', 'Qadira', 'Raghav', 'Rashmi', 'Samarth', 'Saumya', 'Tanish', 'Tanya', 'Utkarsh', 'Uma',
+  'Varun', 'Vanya', 'Veer', 'Vrinda', 'Yash', 'Yamini', 'Zayd', 'Zara', 'Aaditya', 'Aaradhya',
+  'Aryan', 'Aishwarya', 'Bharat', 'Bhavna', 'Chirag', 'Charulata', 'Dhruv', 'Divya', 'Devansh', 'Ekisha',
+  'Firoz', 'Ganga', 'Ganesh', 'Heena', 'Ishaan', 'Ishita', 'Jayant', 'Jaya', 'Kunal', 'Khushi',
+  'Lakshman', 'Lavanya', 'Madhav', 'Meera', 'Nikhil', 'Nidhi', 'Om', 'Ojasvi', 'Pranav', 'Preeti',
+  'Qaiser', 'Queenie', 'Rajat', 'Ritika', 'Sahil', 'Shreya', 'Tanuj', 'Trisha', 'Uday', 'Urvashi',
+  'Vikram', 'Vaishnavi', 'Vedant', 'Vidya', 'Yuvan', 'Yashika', 'Zain', 'Zoya'
+];
+
   export function generateRandomName() {
   return nameList[Math.floor(Math.random() * nameList.length)];
       };
 
-     export function makeRandomMessage(length) {
-        let result = '';
-        const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-        const charactersLength = characters.length;
-        let counter = 0;
-        while (counter < length) {
-          result += characters.charAt(Math.floor(Math.random() * charactersLength));
-          counter += 1;
-        }
-        return result;
-    }
+      export function makeRandomMessage() {
+        const cricketComments = [
+          "Remember that historic India-Pakistan match in 2007? What a win!",
+          "Kohli's masterclass in the 2015 World Cup against Pakistan was legendary.",
+          "Sachin's iconic innings against Pakistan is still talked about.",
+          "That thrilling India-Pakistan T20 final in 2007 - a historic win!",
+          "The 2019 World Cup match against Pakistan was truly epic.",
+          "Who can forget the 2011 World Cup semi-final victory?",
+          "India's strong bowling attack has often outshone Pakistan.",
+          "Yuvraj's six 6s against Pakistan is etched in cricket history.",
+          "India's historic win in the 1985 World Championship is iconic.",
+          "Dhawan's performances against Pakistan have been fantastic.",
+          "India's batting prowess against Pakistan is unmatched.",
+          "Rohit Sharma full power.",
+          "2023 Virat's Knock 🔥",
+          "India thrashed pakistan today",
+        ];
+      
+        const randomIndex = Math.floor(Math.random() * cricketComments.length);
+        return cricketComments[randomIndex];
+      }
+      

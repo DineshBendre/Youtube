@@ -18,7 +18,7 @@ useEffect(()=>{
             name: generateRandomName(),
             message: makeRandomMessage(20)+ " 🤘 "
         }))
-    },1500);
+    },2000);
 
     return()=>clearInterval(i);
 },[])
