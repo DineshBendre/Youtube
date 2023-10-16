@@ -11,25 +11,31 @@ const Sidebar = () => {
   return (
     <div className='p-5 shadow-lg w-48'>
       <ul>
-        <li><Link to="/">Home</Link></li>
-        <li>Shorts</li>
-        <li>Videos</li>
-        <li>Live</li>
+        <li className='font-bold  p-2 hover:bg-gray-300 rounded-lg'><Link to="/">Home</Link></li>
+        <li className='font-bold p-2 hover:bg-gray-300 rounded-lg'>Shorts</li>
+        <li className='font-bold p-2 hover:bg-gray-300 rounded-lg'>Subscriptions</li>
       </ul>
-      <h1 className='font-bold pt-5'>Subscriptions</h1>
+      <br></br>
       <ul>
-        <li>Music</li>
-        <li>Sports</li>
-        <li>Games</li>
-        <li>Movies</li>
+        <li className='font-bold p-2 hover:bg-gray-300 rounded-lg'>Library</li>
+        <li className='font-bold p-2 hover:bg-gray-300 rounded-lg'>History</li>
+        <li className='font-bold p-2 hover:bg-gray-300 rounded-lg'>Watch Later</li>
+        <li className='font-bold p-2 hover:bg-gray-300 rounded-lg'>Liked Videos</li>
       </ul>
-      <h1 className='font-bold pt-5'>Watch Later</h1>
+      <br></br>
+      <h1 className='font-bold pt-5 p-23 hover:bg-gray-300 rounded-lg'>Subscriptions</h1>
       <ul>
-        <li>Music</li>
-        <li>Sports</li>
-        <li>Games</li>
-        <li>Movies</li>
+        <li className='font-bold p-3 hover:bg-gray-300 rounded-lg'>Mr Beast</li>
+        <li className='font-bold p-2 hover:bg-gray-300 rounded-lg'>Akshay Saini</li>
+        <li className='font-bold p-2 hover:bg-gray-300 rounded-lg'>Love Babbar</li>
       </ul>
+      <br></br>
+      <ul>
+        <li className='font-bold p-2 hover:bg-gray-300 rounded-lg'>Trending</li>
+        <li className='font-bold p-2 hover:bg-gray-300 rounded-lg'>Live</li>
+        <li className='font-bold p-2 hover:bg-gray-300 rounded-lg'>Music</li>
+      </ul>
+
     </div>
   )
 }
